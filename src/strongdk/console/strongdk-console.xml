@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE library PUBLIC "-//NetBeans//DTD Library Declaration 1.0//EN" "http://www.netbeans.org/dtds/library-declaration-1_0.dtd">
+<library version="1.0">
+      <name>strongdk-console</name>
+      <type>j2se</type>
+      <localizing-bundle>strongdk.console.Bundle</localizing-bundle>
+      <volume>
+            <type>classpath</type>
+            <resource>jar:nbinst://strongdk.console/libs/ConsoleAppState.jar!/</resource>
+      </volume>
+      <volume>
+            <type>src</type>
+            <resource>jar:nbinst://strongdk.console/sources/strongdk-console-src.zip!/</resource>
+      </volume>
+      <volume>
+            <type>javadoc</type>
+            <resource>jar:nbinst://strongdk.console/docs/ConsoleAppState-javadoc.jar!/</resource>
+      </volume>
+</library>
